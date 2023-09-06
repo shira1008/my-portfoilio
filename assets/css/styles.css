@@ -134,11 +134,12 @@ img {
 .section__title-2::after {
   content: "";
   width: 40px;
-  height: 28px;
-  background-color: hsla(14, 98%, 50%, 0.2);
+  height: 25px;
+  background-color: hsla(271, 93%, 71%, 0.3);
   position: absolute;
-  top: -4px;
-  right: -8px;
+  top: 15px;
+  right: -5px;
+  transition: all 0.8s;
 }
 
 .section__title-2::after {
@@ -407,17 +408,6 @@ img {
   transition: background-color 0.3s;
 }
 
-@media screen and (min-width: 1150px) {
-  .home__line {
-    right: -8rem;
-    bottom: -0.5rem;
-  }
-
-  .home__social {
-    left: -9rem;
-  }
-}
-
 .home__social-link:hover {
   background-color: var(--black-color);
 }
@@ -432,6 +422,7 @@ img {
   margin-bottom: 1.5rem;
 }
 
+/* here to make the effect */
 .home__description b {
   background: linear-gradient(
     90deg,
@@ -464,6 +455,7 @@ img {
 }
 
 .home__scroll-box i {
+  font-size: 1.5rem;
   animation: scroll-down 3s infinite;
 }
 /* Animate scroll icon */
@@ -486,6 +478,39 @@ img {
 /*=============== BUTTON ===============*/
 
 /*=============== ABOUT ===============*/
+
+.about {
+  background-color: var(--container-color);
+  transition: background-color 0.4s;
+}
+
+.about__container {
+  row-gap: 0;
+}
+
+.about__perfil {
+  position: relative;
+  justify-self: center;
+  /* margin-block: 2.5rem 4.5rem; */
+}
+
+/* .about__shadow,
+.about__line,
+.about__box {
+  position: absolute;
+} */
+
+.about__perfil .geometric-box {
+  top: -3.5rem;
+  right: 7rem;
+}
+
+.about__line {
+  position: relative;
+  right: -6rem;
+  top: -5.5rem;
+  width: 70px;
+}
 
 /*=============== SERVICES ===============*/
 
@@ -511,3 +536,13 @@ img {
 /* For medium devices */
 
 /* For large devices */
+@media screen and (min-width: 1150px) {
+  .home__line {
+    right: -8rem;
+    bottom: -0.5rem;
+  }
+
+  .home__social {
+    left: -9rem;
+  }
+}

@@ -679,7 +679,7 @@ img {
   border-bottom: 4px solid var(--first-color);
   z-index: 5;
   transition: var(--black-color) 0.4s;
-  border-top: 10px solid var(--container-color);
+  border-top: 20px solid var(--container-color);
 }
 
 .contact__data .section__title-2 {

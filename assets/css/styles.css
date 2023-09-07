@@ -68,6 +68,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  transition: background-color 0.4s; /* for dark mode */
 }
 
 h1,
@@ -92,15 +93,98 @@ img {
   height: auto;
 }
 
-/*=============== THEME ===============*/
+/*=============== THEME - dark\light mode ===============*/
+.nav__buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
+.change-theme {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: color 0.3s;
+}
 /*========== Variables Dark theme ==========*/
+body.dark-theme {
+  --first-color: hsl(278, 91%, 65%);
+  --black-color: hsl(0, 0%, 18%);
+  --black-color-light: hsl(0, 0%, 30%);
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 70%);
+  --body-color: hsl(0, 0%, 8%);
+  --container-color: hsl(0, 0%, 12%);
+}
 
 /*========== 
 	Color changes in some parts of 
 	the website, in dark theme
 ==========*/
+/* .dark-theme .shadow-header {
+  box-shadow: 0 1px 12px hsl(278, 91%, 65%);
+} */
 
+.dark-theme .section__title-1::after,
+.dark-theme .section__title-2::after {
+  background-color: hsla(278, 93%, 58%, 0.2);
+}
+
+.dark-theme :is(.home__arrow, .home__line, ) {
+  filter: none;
+}
+
+.dark-theme .about__line {
+  filter: invert(1);
+}
+
+.dark-theme .home__description b {
+  background: linear-gradient(
+    90deg,
+    hsla(278, 93%, 58%, 0.3),
+    hsla(278, 50%, 56%, 0)
+  );
+}
+
+/* .dark-theme :is(.button__ghost) {
+  color: var(--white-color);
+} */
+
+.dark-theme .projects__card:hover {
+  background-color: var(--body-color);
+}
+
+.dark-theme .projects__card {
+  background-color: var(--black-color);
+}
+
+.dark-theme :is(.contact__mail, .contact__input, .contact__label) {
+  color: var(--white-color);
+}
+
+.dark-theme .footer {
+  background-color: hsl(0, 0%, 4%);
+}
+
+.dark-theme::-webkit-scrollbar {
+  background-color: hsl(0, 0%, 20%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb {
+  background-color: hsl(0, 0%, 30%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+
+.dark-theme .scrollup {
+  border: 2px solid hsl(0, 0%, 4%);
+}
+
+.dark-theme .projects__button {
+  background-color: hsl(0, 0%, 4%);
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1120px;
@@ -177,7 +261,7 @@ img {
   left: 0;
   background-color: var(--body-color);
   z-index: var(--z-fixed);
-  transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s, background-color 0.4s;
 }
 
 .nav {
@@ -320,6 +404,13 @@ img {
 }
 
 /* Active link */
+.active-link {
+  color: var(--white-color);
+}
+
+.active-link::after {
+  width: 25%;
+}
 
 /*=============== HOME ===============*/
 

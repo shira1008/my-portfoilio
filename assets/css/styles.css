@@ -8,7 +8,7 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(278, 91%, 65%);
-  --black-color: hsl(0, 0%, 0%);
+  --black-color: hsl(0, 0%, 10%);
   --black-color-light: hsl(0, 0%, 40%);
   --white-color: hsl(0, 0%, 95%);
   --title-color: hsl(0, 0%, 0%);
@@ -742,6 +742,11 @@ body.dark-theme {
 .projects__link:hover,
 .projects__link:hover i {
   color: var(--first-color);
+}
+
+.projects__img {
+  min-height: 280px;
+  object-fit: cover;
 }
 
 /*=============== CONTACT ===============*/

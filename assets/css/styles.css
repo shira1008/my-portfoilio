@@ -749,6 +749,19 @@ body.dark-theme {
   object-fit: cover;
 }
 
+.projects__description {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.projects__description a {
+  color: var(--body-font);
+}
+
+.projects__description a:hover {
+  color: var(--first-color);
+}
+
 /*=============== CONTACT ===============*/
 
 .contact {

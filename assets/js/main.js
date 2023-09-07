@@ -38,6 +38,39 @@ window.addEventListener("scroll", shadowHeader);
 
 /*=============== EMAIL JS ===============*/
 
+const contactForm = document.getElementById("contact-form");
+const contactMessage = document.getElementById("contact-message");
+
+const sendEmail = (e) => {
+  e.preventDefault();
+  emailjs
+    .sendForm(
+      "service_krx60ds",
+      "template_x4fhfb9",
+      "#contact-form",
+      "a-kGFP1wn3-Gl19kI"
+    )
+    .then(
+      () => {
+        contactMessage.textContent = "Message sent successfully ✅ ";
+
+        //remove msg after 5 sec
+        setTimeout(() => {
+          contactMessage.textContent = "";
+        }, 5000);
+
+        //clear fields:
+        contactForm.reset();
+      },
+      () => {
+        //error
+        contactMessage.textContent = "There was an error ❌ ";
+      }
+    );
+};
+
+contactForm.addEventListener("submit", sendEmail);
+
 /*=============== SHOW SCROLL UP ===============*/
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/

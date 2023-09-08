@@ -8,7 +8,8 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(278, 91%, 65%);
-  --black-color: hsl(0, 0%, 10%);
+  /* --black-color: hsl(0, 0%, 10%); */
+  --black-color: hsl(291, 10%, 14%);
   --black-color-light: hsl(0, 0%, 40%);
   --white-color: hsl(0, 0%, 95%);
   --title-color: hsl(0, 0%, 0%);
@@ -109,7 +110,7 @@ img {
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   --first-color: hsl(278, 91%, 65%);
-  --black-color: hsl(0, 0%, 18%);
+  --black-color: hsl(283, 9%, 15%);
   --black-color-light: hsl(0, 0%, 30%);
   --title-color: hsl(0, 0%, 95%);
   --text-color: hsl(0, 0%, 70%);
@@ -130,11 +131,12 @@ body.dark-theme {
   background-color: hsla(278, 93%, 58%, 0.2);
 }
 
-.dark-theme :is(.home__arrow, .home__line, ) {
+.dark-theme :is(.home__arrow) {
   filter: none;
 }
 
-.dark-theme .about__line {
+.dark-theme .about__line,
+.dark-theme .home__line {
   filter: invert(1);
 }
 
@@ -452,15 +454,13 @@ body.dark-theme {
 .home__arrow,
 .home__line {
   position: absolute;
-  filter: invert(1);
   width: 50px;
   transition: filler 0.4s;
 }
 
-/* .home__arrow {
-  left: 40%;
-  bottom: -4rem;
-} */
+.home__arrow {
+  filter: invert(1);
+}
 
 .home__arrow {
   left: 10%;
@@ -1096,8 +1096,9 @@ body.dark-theme {
 /* For large devices */
 @media screen and (min-width: 1150px) {
   .home__line {
-    right: -8rem;
+    right: -12rem;
     bottom: -0.5rem;
+    width: 100px;
   }
 
   .home__social {
@@ -1163,7 +1164,7 @@ body.dark-theme {
 
   /* need to make it lighter? */
   .nav__link::after {
-    background-color: var(--title-color);
+    background-color: rgb(224, 174, 253);
   }
 
   .active-link {

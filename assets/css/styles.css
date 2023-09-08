@@ -220,11 +220,11 @@ body.dark-theme {
 .section__title-2::after {
   content: "";
   width: 40px;
-  height: 25px;
+  height: 5px;
   background-color: hsla(271, 93%, 71%, 0.3);
   position: absolute;
-  top: 15px;
-  right: -5px;
+  top: 32px;
+  right: -10px;
   transition: all 0.8s;
 }
 
@@ -1116,7 +1116,9 @@ body.dark-theme {
   .section__title-1::after,
   .section__title-2::after {
     width: 70px;
-    height: 48px;
+    height: 8px;
+    top: 52px;
+    right: 5px;
     transform: translateX(15px);
   }
 

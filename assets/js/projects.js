@@ -29,6 +29,34 @@ const projectsList = [
     git: "https://github.com/shira1008/grid-porfolio-project",
     liveSite: "https://shish-profile.netlify.app/",
   },
+  {
+    id: 4,
+    title: "Portfolio",
+    subtitle: "Website",
+    description: "Portfolio to my dog while learning css",
+    img: "./assets/img/Screenshot_1.jpg",
+    git: "https://github.com/shira1008/grid-porfolio-project",
+    liveSite: "https://shish-profile.netlify.app/",
+  },
+
+  {
+    id: 5,
+    title: "Wikipedia Api",
+    subtitle: "Website",
+    description: "Made Wikipedia",
+    img: "./assets/img/wikipediat_2.jpg",
+    git: "https://github.com/shira1008/Wikipedia-API",
+    liveSite: "https://wikipedia-shish.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "Portfolio",
+    subtitle: "Website",
+    description: "Portfolio to my dog while learning css",
+    img: "./assets/img/Screenshot_1.jpg",
+    git: "https://github.com/shira1008/grid-porfolio-project",
+    liveSite: "https://shish-profile.netlify.app/",
+  },
 ];
 
 projectsList.forEach((projectObject) => {

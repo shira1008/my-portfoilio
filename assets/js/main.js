@@ -143,3 +143,74 @@ themeButton.addEventListener("click", () => {
 });
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+
+// Initialize ScrollReveal
+const sr = ScrollReveal();
+
+// Configure the global settings for all sections
+sr.reveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 400,
+  reset: true,
+});
+
+// Configure the elements you want to reveal
+sr.reveal(".home__perfil", {
+  duration: 2000,
+  origin: "left",
+  distance: "20px",
+  delay: 400,
+  // reset: true,
+});
+
+sr.reveal(".home__name", {
+  duration: 2000,
+  origin: "right",
+  delay: 400,
+  // reset: true,
+});
+
+sr.reveal(".about__container", {
+  duration: 2000,
+  origin: "right",
+  distance: "20px",
+  delay: 600,
+});
+
+sr.reveal(".section__title-1, .section__description", {
+  origin: "top",
+  distance: "20px",
+  delay: 200,
+});
+
+sr.reveal(".projects", {
+  origin: "left",
+  distance: "60px",
+  duration: 2500,
+  delay: 1000,
+});
+
+sr.reveal(".contact__mail", {
+  origin: "right",
+  distance: "60px",
+  duration: 2000,
+  delay: 600,
+});
+
+sr.reveal(".contact__data", {
+  origin: "left",
+  distance: "60px",
+  duration: 2000,
+  delay: 600,
+});
+
+sr.reveal(".contact__social", {
+  origin: "top",
+  distance: "60px",
+  duration: 2000,
+  delay: 600,
+});
+
+ScrollReveal().sync();

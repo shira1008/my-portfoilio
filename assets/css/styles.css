@@ -416,6 +416,27 @@ body.dark-theme {
 
 /*=============== HOME ===============*/
 
+.home {
+  background-image: linear-gradient(
+      rgba(228, 223, 223, 0.9),
+      rgba(203, 192, 204, 0.9)
+    ),
+    url("../img/day-try2.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.7s;
+}
+
+.dark-theme .home {
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0.9),
+      rgba(70, 58, 71, 0.9)
+    ),
+    url("../img/night-try2.jpg");
+  transition: all 0.7s;
+}
+
 .home__container {
   padding-top: 7rem;
 }
@@ -1183,6 +1204,7 @@ body.dark-theme {
 
   .home__container {
     grid-template-columns: auto;
+    padding: 7rem;
     /* border: 1px solid black; */
   }
 
@@ -1223,7 +1245,7 @@ body.dark-theme {
   }
 
   .about__container {
-    padding-bottom: 4rem;
+    padding: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1231,6 +1253,10 @@ body.dark-theme {
 
   .about__list {
     padding-bottom: 3.5rem;
+  }
+
+  .about__info {
+    width: 700px;
   }
 
   .about__line {
@@ -1328,5 +1354,9 @@ body.dark-theme {
 
   .footer__container {
     padding-block: 4rem;
+  }
+
+  .scrollup {
+    right: 3rem;
   }
 }

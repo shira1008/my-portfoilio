@@ -157,46 +157,55 @@ sr.reveal({
   reset: true,
 });
 
-// Configure the elements you want to reveal
-sr.reveal(".home__perfil", {
+sr.reveal(".home__arrow", {
   duration: 2000,
-  origin: "left",
-  distance: "20px",
-  delay: 400,
-  // reset: true,
-});
-
-sr.reveal(".home__name", {
-  duration: 2000,
-  origin: "right",
-  delay: 400,
-  // reset: true,
-});
-
-sr.reveal(".about__container", {
-  duration: 2000,
-  origin: "right",
-  distance: "20px",
-  delay: 600,
-});
-
-sr.reveal(".section__title-1, .section__description", {
   origin: "top",
   distance: "20px",
-  delay: 200,
+  delay: 400,
+  // reset: true,
 });
 
-sr.reveal(".projects", {
+sr.reveal(".about__line", {
+  duration: 2000,
+  origin: "top",
+  distance: "20px",
+  delay: 400,
+  // reset: true,
+});
+
+// Configure the elements you want to reveal
+// sr.reveal(".home__perfil", {
+//   duration: 2000,
+//   origin: "left",
+//   distance: "20px",
+//   delay: 400,
+//   // reset: true,
+// });
+
+// sr.reveal(".home__scroll-anim", {
+//   duration: 2000,
+//   origin: "left",
+//   delay: 400,
+//   // reset: true,
+// });
+
+// sr.reveal(".about__container", {
+//   duration: 2000,
+//   origin: "right",
+//   distance: "20px",
+//   delay: 600,
+// });
+
+sr.reveal(" .about__item", {
   origin: "left",
   distance: "60px",
-  duration: 2500,
-  delay: 1000,
+  delay: 200,
 });
 
 sr.reveal(".contact__mail", {
   origin: "right",
   distance: "60px",
-  duration: 2000,
+  duration: 1000,
   delay: 600,
 });
 

@@ -145,6 +145,7 @@ themeButton.addEventListener("click", () => {
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 
 // Initialize ScrollReveal
+
 const sr = ScrollReveal();
 
 // Configure the global settings for all sections

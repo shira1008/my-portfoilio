@@ -173,6 +173,14 @@ sr.reveal(".about__line", {
   // reset: true,
 });
 
+sr.reveal(".projects__description", {
+  duration: 2000,
+  origin: "top",
+  distance: "20px",
+  delay: 400,
+  // reset: true,
+});
+
 // Configure the elements you want to reveal
 // sr.reveal(".home__perfil", {
 //   duration: 2000,
@@ -189,14 +197,8 @@ sr.reveal(".about__line", {
 //   // reset: true,
 // });
 
-// sr.reveal(".about__container", {
-//   duration: 2000,
-//   origin: "right",
-//   distance: "20px",
-//   delay: 600,
-// });
-
 sr.reveal(" .about__item", {
+  duration: 2600,
   origin: "left",
   distance: "60px",
   delay: 200,

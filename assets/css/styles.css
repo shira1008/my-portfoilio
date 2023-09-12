@@ -193,7 +193,7 @@ body.dark-theme {
 }
 
 .dark-theme .about__container .button:hover {
-  background-color: var(--first-color);
+  background-color: hsl(283, 17%, 30%);
 }
 
 .dark-theme .home__container .home__scroll-box {
@@ -1274,7 +1274,7 @@ body.dark-theme {
 
   .about__line {
     width: 100px;
-    right: -6.2rem;
+    right: -10.2rem;
     top: -7rem;
   }
 

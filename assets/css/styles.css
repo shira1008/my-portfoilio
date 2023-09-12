@@ -189,7 +189,8 @@ body.dark-theme {
 }
 
 .dark-theme .about__container .button {
-  background-color: hsl(283, 17%, 30%);
+  /* background-color: hsl(283, 17%, 30%); */
+  border: 1px solid var(--black-color-light);
 }
 
 .dark-theme .about__container .button:hover {

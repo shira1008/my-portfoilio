@@ -192,6 +192,10 @@ body.dark-theme {
   background-color: hsl(283, 17%, 30%);
 }
 
+.dark-theme .about__container .button:hover {
+  background-color: var(--first-color);
+}
+
 .dark-theme .home__container .home__scroll-box {
   background-color: hsl(285, 7%, 11%);
 }

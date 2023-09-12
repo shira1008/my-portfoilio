@@ -655,7 +655,7 @@ body.dark-theme {
 /* the heart */
 .about__line {
   position: relative;
-  right: -6rem;
+  right: -3rem;
   top: -5.5rem;
   width: 70px;
   transition: filter 0.4s;
@@ -1275,7 +1275,7 @@ body.dark-theme {
 
   .about__line {
     width: 100px;
-    right: -10.2rem;
+    right: -7.2rem;
     top: -7rem;
   }
 

@@ -1119,6 +1119,10 @@ body.dark-theme {
   .dark-theme .contact__social-arrow {
     filter: none;
   }
+
+  .about__line {
+    right: -6rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1157,9 +1161,9 @@ body.dark-theme {
     transform: translateX(15px);
   }
 
-  .about__line {
+  /* .about__line {
     transform: translateX(60px);
-  }
+  } */
 
   /* ** */
   .about__container .geometric-box {

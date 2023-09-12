@@ -655,18 +655,10 @@ body.dark-theme {
 }
 
 .about__description i {
-  font-size: 1.5rem;
-  padding: 0.3rem;
-}
-
-.about__description::after {
-  content: "";
-  width: 20px;
-  height: 1px;
-  background-color: var(--title-color);
   position: absolute;
   left: -1.75rem;
-  top: 0.5rem;
+  top: 0rem;
+  font-size: 1.2rem;
 }
 
 .about__list {

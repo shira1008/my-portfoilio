@@ -1075,6 +1075,10 @@ body.dark-theme {
     justify-content: center;
   }
 
+  /* .about__description {
+    min-width: 500px;
+  } */
+
   .contact__data {
     width: 350px;
     padding: 4rem 1.5rem;

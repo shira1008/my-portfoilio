@@ -157,13 +157,13 @@ sr.reveal({
   reset: true,
 });
 
-sr.reveal(".home__arrow", {
-  duration: 2000,
-  origin: "top",
-  distance: "20px",
-  delay: 400,
-  // reset: true,
-});
+// sr.reveal(".home__description", {
+//   duration: 2000,
+//   origin: "top",
+//   distance: "20px",
+//   delay: 400,
+//   // reset: true,
+// });
 
 sr.reveal(".about__line", {
   duration: 2000,

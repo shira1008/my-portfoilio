@@ -25,7 +25,7 @@ const projectsList = [
     id: 8,
     title: "Landing Page",
     subtitle: "CSS, HTML, JavaScript",
-    description: "Landing page for a travel company",
+    description: "Landing page for a travel company, responsive mobile first",
     img: "./assets/img/travel.jpg",
     git: "https://github.com/shira1008/Travel-project",
     liveSite: "https://shishtravelproject.netlify.app/",

@@ -23,12 +23,22 @@ const projectsList = [
   },
   {
     id: 8,
-    title: "Landing Page",
+    title: "Landing Page - Travel",
     subtitle: "CSS, HTML, JavaScript",
     description: "Landing page for a travel company, responsive mobile first",
     img: "./assets/img/travel.jpg",
     git: "https://github.com/shira1008/Travel-project",
     liveSite: "https://shishtravelproject.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "Landing Page - VR",
+    subtitle: "CSS, HTML, Bootstrap",
+    description:
+      "Landing page for a VR company, using bootstrap and custom css",
+    img: "./assets/img/VR.jpg",
+    git: "https://github.com/shira1008/Landing-page-project",
+    liveSite: "https://shish-vrapp.netlify.app/",
   },
   {
     id: 3,

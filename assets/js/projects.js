@@ -48,7 +48,7 @@ const projectsList = [
     description:
       "React project, using GitHub API and display data about searched user. the user have to login.",
     img: "./assets/img/github.jpg",
-    git: "https://github.com/shira1008/Wikipedia-API",
+    git: "https://github.com/shira1008/GitHub-api-project",
     liveSite: "https://github-api-project-shira.netlify.app//",
   },
   {

@@ -21,6 +21,15 @@ const projectsList = [
     git: "https://github.com/shira1008/Wikipedia-API",
     liveSite: "https://wikipedia-shish.netlify.app/",
   },
+  {
+    id: 8,
+    title: "Landing Page",
+    subtitle: "CSS, HTML, JavaScript",
+    description: "Landing page for a travel company",
+    img: "./assets/img/travel.jpg",
+    git: "https://github.com/shira1008/Travel-project",
+    liveSite: "https://shishtravelproject.netlify.app/",
+  },
   // {
   //   id: 3,
   //   title: "Clothes Store",

@@ -515,11 +515,12 @@ body.dark-theme {
 .home__social {
   height: max-content;
   position: absolute;
-  left: -5rem;
+  left: -3rem;
   top: -10px;
   bottom: 0;
   margin: auto 0;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   row-gap: 1.5rem;
 }
 
@@ -946,7 +947,8 @@ body.dark-theme {
 }
 
 .contact__social {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   row-gap: 1rem;
   background-color: hsl(0, 0%, 10%);
   padding-block: 1rem 2rem;

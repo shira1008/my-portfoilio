@@ -787,11 +787,15 @@ body.dark-theme {
 }
 
 .projects__description a {
-  color: var(--body-font);
+  color: var(--first-color);
 }
 
 .projects__description a:hover {
-  color: var(--first-color);
+  color: rgb(146, 32, 146);
+}
+
+.projects__description a i {
+  font-size: 1.2rem;
 }
 
 /*=============== CONTACT ===============*/
@@ -976,6 +980,10 @@ body.dark-theme {
   color: var(--white-color);
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
+}
+
+.contact__social-description-2 b {
+  color: var(--first-color);
 }
 
 .contact__message {

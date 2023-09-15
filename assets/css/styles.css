@@ -319,7 +319,7 @@ body.dark-theme {
   .nav__menu {
     position: fixed;
     /* hide  */
-    top: -100%;
+    top: -300%;
     left: 0;
     background-color: hsla(0, 0%, 0%, 0.75);
     width: 100%;

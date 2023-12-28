@@ -5,7 +5,8 @@ const projectsList = [
     id: 1,
     title: 'Portfolio',
     subtitle: 'CSS, HTML, JavaScript',
-    description: 'Portfolio for my dog while learning css grid',
+    description:
+      'Portfolio for my dog while learning css grid, this is one of my frist projects',
     img: './assets/img/Screenshot_1.jpg',
     git: 'https://github.com/shira1008/grid-porfolio-project',
     liveSite: 'https://shish-profile.netlify.app/',

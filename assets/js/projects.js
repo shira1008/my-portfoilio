@@ -16,7 +16,7 @@ const projectsList = [
     title: 'DevLink',
     subtitle: 'React, CSS, Node.js, Express, MongoDb',
     description:
-      'DevLink is a full-stack social media application designed for developers to connect, share experiences and education',
+      'DevLink is a full-stack social media application designed for developers to connect, share experiences, education and projects',
     img: './assets/img/DevLink-img.jpg',
     git: 'https://github.com/shira1008/DevLink',
   },

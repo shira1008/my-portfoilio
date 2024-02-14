@@ -15,7 +15,7 @@ const projectsList = [
   {
     id: 3,
     title: 'DevLink',
-    subtitle: 'React, Redux, CSS, Node.js, Express, MongoDb',
+    subtitle: 'React, Redux, CSS, Node.js, Express, MongoDB',
     description:
       'DevLink is a full-stack social media application designed for developers to connect, share experiences, education and projects',
     img: './assets/img/DevLink-img.jpg',
@@ -30,6 +30,15 @@ const projectsList = [
     img: './assets/img/MovieWebt.jpg',
     git: 'https://github.com/shira1008/MoviWeb/tree/main',
     liveSite: 'http://shirashahar.pythonanywhere.com/',
+  },
+
+  {
+    id: 4,
+    title: 'Sakura Shop - In Progress',
+    subtitle: 'React, HTML, CSS, Node.js, Express, MongoDB',
+    description: 'A pink e-Commerce store, still in development',
+    img: './assets/img/Sakura.png',
+    git: 'https://github.com/shira1008/E-Commerce',
   },
 
   {
@@ -72,17 +81,6 @@ const projectsList = [
     img: './assets/img/VR.jpg',
     git: 'https://github.com/shira1008/Landing-page-project',
     liveSite: 'https://shish-vrapp.netlify.app/',
-  },
-
-  {
-    id: 4,
-    title: 'Furniture Store',
-    subtitle: 'React, HTML, CSS',
-    description:
-      'A furniture store. I used an API from a Udemy course( JS Course ), Created the functionality using JS. ',
-    img: './assets/img/comfy.jpg',
-    git: 'https://github.com/shira1008/Store-Project',
-    liveSite: 'https://store-shira.netlify.app/',
   },
 
   {

@@ -105,7 +105,7 @@ projectsList.forEach((projectObject) => {
     projectObject.title
   }" class="projects__img">
       <a href=${
-        projectObject.liveSite
+        projectObject.liveSite ? projectObject.liveSite : projectObject.git
       } target="_blank" class="projects__button button">
         <i class="ri-arrow-right-up-line"></i>
       </a>

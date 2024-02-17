@@ -2,17 +2,6 @@ const projectCard = document.querySelector('.projects__container');
 
 const projectsList = [
   {
-    id: 1,
-    title: 'Portfolio',
-    subtitle: 'CSS, HTML, JavaScript',
-    description:
-      'Portfolio for my dog while learning css grid, this is one of my frist projects',
-    img: './assets/img/Screenshot_1.jpg',
-    git: 'https://github.com/shira1008/grid-porfolio-project',
-    liveSite: 'https://shish-profile.netlify.app/',
-  },
-
-  {
     id: 3,
     title: 'DevLink',
     subtitle: 'React, Redux, CSS, Node.js, Express, MongoDB',
@@ -20,6 +9,15 @@ const projectsList = [
       'DevLink is a full-stack social media application designed for developers to connect, share experiences, education and projects',
     img: './assets/img/DevLink-img.jpg',
     git: 'https://github.com/shira1008/DevLink',
+  },
+
+  {
+    id: 4,
+    title: 'Sakura Shop - In Progress',
+    subtitle: 'React, HTML, CSS, Node.js, Express, MongoDB',
+    description: 'A pink e-Commerce store, still in development',
+    img: './assets/img/Sakura.png',
+    git: 'https://github.com/shira1008/E-Commerce',
   },
   {
     id: 6,
@@ -33,12 +31,14 @@ const projectsList = [
   },
 
   {
-    id: 4,
-    title: 'Sakura Shop - In Progress',
-    subtitle: 'React, HTML, CSS, Node.js, Express, MongoDB',
-    description: 'A pink e-Commerce store, still in development',
-    img: './assets/img/Sakura.png',
-    git: 'https://github.com/shira1008/E-Commerce',
+    id: 1,
+    title: 'Portfolio',
+    subtitle: 'CSS, HTML, JavaScript',
+    description:
+      'Portfolio for my dog while learning css grid, this is one of my frist projects',
+    img: './assets/img/Screenshot_1.jpg',
+    git: 'https://github.com/shira1008/grid-porfolio-project',
+    liveSite: 'https://shish-profile.netlify.app/',
   },
 
   {
@@ -83,15 +83,25 @@ const projectsList = [
     liveSite: 'https://shish-vrapp.netlify.app/',
   },
 
+  // {
+  //   id: 5,
+  //   title: 'GitHub Api',
+  //   subtitle: 'React, HTML, CSS',
+  //   description:
+  //     'React project, using GitHub API and display data about searched user. the user have to login.',
+  //   img: './assets/img/github.jpg',
+  //   git: 'https://github.com/shira1008/GitHub-api-project',
+  //   liveSite: 'https://github-api-project-shira.netlify.app/',
+  // },
+
   {
-    id: 5,
-    title: 'GitHub Api',
-    subtitle: 'React, HTML, CSS',
-    description:
-      'React project, using GitHub API and display data about searched user. the user have to login.',
-    img: './assets/img/github.jpg',
-    git: 'https://github.com/shira1008/GitHub-api-project',
-    liveSite: 'https://github-api-project-shira.netlify.app//',
+    id: 10,
+    title: 'Landing Page - Dogs Food',
+    subtitle: 'HTML, CSS, JavaScript',
+    description: 'My first Project, Ive started to leran html and css. ',
+    img: './assets/img/DogsFood.png',
+    git: 'https://github.com/shira1008/Organic-Doog-Food-project',
+    liveSite: 'https://shishsdogfoodproject.netlify.app/',
   },
 ];
 

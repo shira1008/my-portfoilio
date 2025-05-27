@@ -27,7 +27,7 @@ const projectsList = [
       'The MoviWeb App is a Flask-based, Fullstack application that allows users to track their favorite movies. ',
     img: './assets/img/MovieWebt.jpg',
     git: 'https://github.com/shira1008/MoviWeb/tree/main',
-    liveSite: 'http://shirashahar.pythonanywhere.com/',
+    // liveSite: 'http://shirashahar.pythonanywhere.com/',
   },
 
   {
@@ -38,7 +38,8 @@ const projectsList = [
       'Portfolio for my dog while learning css grid, this is one of my frist projects',
     img: './assets/img/Screenshot_1.jpg',
     git: 'https://github.com/shira1008/grid-porfolio-project',
-    liveSite: 'https://shish-profile.netlify.app/',
+    liveSite:
+      'https://daily-winners.com/plrm/rsl/desk/ww/3D/12gl3/raid_us_d_01.html',
   },
 
   {

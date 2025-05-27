@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -20,7 +20,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Bai Jamjuree", sans-serif;
+  --body-font: 'Bai Jamjuree', sans-serif;
   --biggest-font-size: 2.5rem;
   --h1-font-size: 1.75rem;
   --h2-font-size: 1.25rem;
@@ -231,7 +231,7 @@ body.dark-theme {
 
 .section__title-1::after,
 .section__title-2::after {
-  content: "";
+  content: '';
   width: 40px;
   height: 5px;
   background-color: hsla(271, 93%, 71%, 0.3);
@@ -255,7 +255,7 @@ body.dark-theme {
 }
 
 .geometric-box::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 16px;
@@ -353,7 +353,7 @@ body.dark-theme {
 
 .nav__name::after,
 .nav__name::before {
-  content: "";
+  content: '';
   width: 40px;
   height: 1px;
   background-color: var(--text-color);
@@ -382,7 +382,7 @@ body.dark-theme {
 }
 
 .nav__link::after {
-  content: "";
+  content: '';
   width: 25%;
   height: 2px;
   background-color: var(--white-color);
@@ -434,7 +434,7 @@ body.dark-theme {
       rgba(228, 223, 223, 0.9),
       rgba(203, 192, 204, 0.9)
     ),
-    url("../img/day-try2.jpg");
+    url('../img/day-try2.jpg');
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -446,7 +446,7 @@ body.dark-theme {
       rgba(17, 17, 17, 0.9),
       rgba(70, 58, 71, 0.9)
     ),
-    url("../img/night-try2.jpg");
+    url('../img/night-try2.jpg');
   transition: all 0.7s;
 }
 
@@ -694,7 +694,8 @@ body.dark-theme {
   transition: background-color 0.4s;
 }
 
-.projects__container {
+.projects__container,
+.projects__container_mob {
   row-gap: 2rem;
 }
 
@@ -735,7 +736,7 @@ body.dark-theme {
 }
 
 .projects__subtitle::after {
-  content: "";
+  content: '';
   width: 20px;
   height: 1px;
   background-color: var(--text-color);
@@ -1085,7 +1086,8 @@ body.dark-theme {
 @media screen and (min-width: 576px) {
   .home__container,
   .about__container,
-  .projects__container {
+  .projects__container,
+  .projects__container_mob {
     grid-template-columns: 350px;
     justify-content: center;
   }
@@ -1137,7 +1139,8 @@ body.dark-theme {
 
 @media screen and (min-width: 768px) {
   /* here projects */
-  .projects__container {
+  .projects__container,
+  .projects__container_mob {
     grid-template-columns: repeat(2, 350px);
   }
 }
@@ -1304,7 +1307,8 @@ body.dark-theme {
     top: 14px;
   }
 
-  .projects__container {
+  .projects__container,
+  .projects__container_mob {
     grid-template-columns: repeat(3, 352px);
     padding-block: 3rem 1rem;
   }

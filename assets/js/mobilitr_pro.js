@@ -40,6 +40,37 @@ const projectsListMob = [
     liveSite:
       'https://daily-winners.com/plrm/rsl/desk/ww/pg/03c/raid_us_d_01.html',
   },
+
+  {
+    id: 5,
+    title: 'Mech Arena',
+    subtitle: 'HTML, CSS, JavaScript, Leonardo AI',
+    description:
+      'Developed a promotional landing page, Visual assets were generated using Leonardo AI to create high-quality imagery.',
+    img: './assets/img/mech.png',
+    liveSite:
+      'https://daily-winners.com/plrm/mech/desk/jp/09/mech_d_jp_s_04.html',
+  },
+
+  {
+    id: 6,
+    title: 'Mobilitr Home Page',
+    subtitle: 'HTML, CSS, JavaScript',
+    description:
+      'Built a custom home page for Mobilitr, This version is a development sample and not the live production site.',
+    img: './assets/img/mobilitr.png',
+    liveSite: 'https://daily-winners.com/mobilitr/07e/mob_01.html',
+  },
+
+  {
+    id: 7,
+    title: 'Match Masters',
+    subtitle: 'HTML, CSS, JavaScript, photoshop',
+    description:
+      'Developed a quiz-style question page for the Match Masters campaign',
+    img: './assets/img/match.png',
+    liveSite: 'https://daily-winners.com/cnv/qus/1224/mm_d_us_02.html',
+  },
 ];
 
 projectsListMob.forEach((projectObject) => {
